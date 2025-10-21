@@ -34,8 +34,6 @@ $username=$_POST['username'];
 $email=$_POST['email'];
 $pw=$_POST['pw'];
 
- //echo $username."<br>",$email."<br>",$pw;
-
  $sql="INSERT INTO signup (username,email,pw) VALUES ('$username','$email','$pw')";
 
 $query="mysqli-query($conn,$sql)";
